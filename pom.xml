@@ -126,10 +126,14 @@
             <scope>provided</scope>
         </dependency>
 
+        <!-- ExtraUtils va shadeada dentro de este jar. La de upstream esta compilada contra los
+             paquetes originales de Slimefun, asi que al arrancar lanzaba
+             NoClassDefFoundError: io/github/thebusybiscuit/slimefun4/implementation/Slimefun
+             desde su Constants, y el addon entero no cargaba. Se usa nuestro port. -->
         <dependency>
-            <groupId>com.github.SlimefunGuguProject</groupId>
-            <artifactId>ExtraUtils</artifactId>
-            <version>5a85ca6293</version>
+            <groupId>com.github.drakescraft_labs</groupId>
+            <artifactId>ExtraUtils-drake</artifactId>
+            <version>1.20.6-Drake-SNAPSHOT</version>
         </dependency>
 
         
