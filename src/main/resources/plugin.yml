@@ -1,22 +1,10 @@
-## CHANGE this to the name of your plugin.
 name: SlimeCustomizer
-
-## CHANGE this to your username.
-author: NCBPFluffyBear
-
-## CHANGE this to a meaninful but short description of your plugin.
-description: A Slimefun4 addon that allows the creation of items through simple configuration files
-
-## CHANGE this to the path of the class that extends JavaPlugin.
+authors: [NCBPFluffyBear, JackStar]
+description: Content engine maintained for the DrakesCraft Slimefun ecosystem
 main: io.ncbpfluffybear.slimecustomizer.SlimeCustomizer
-
-## You can change this to link to your website or repository. You can also remove this line if you want to.
-website: https://github.com/NCBPFluffyBear/SlimeCustomizer
-
-## This is required and marks Slimefun as a plugin dependency.
+website: https://web.drakescraft.cl/guia-slimefun.html#slimecustomizer
 depend: [Slimefun]
 softdepend:
-  - GuizhanLibPlugin
   - ChestTerminal
   - ColoredEnderChests
   - DyedBackpacks
