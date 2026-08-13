@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+  <title id="title">SlimeCustomizer for DrakesCraft</title>
+  <desc id="desc">Animated green Slimefun configuration grid with the DrakesCraft wordmark.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#071710"/>
+      <stop offset="0.55" stop-color="#102a1b"/>
+      <stop offset="1" stop-color="#17102a"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#6ee7a8"/>
+      <stop offset="0.55" stop-color="#d9b85f"/>
+      <stop offset="1" stop-color="#a88cff"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1200" height="320" rx="20" fill="url(#bg)"/>
+  <path d="M0 266C180 220 332 314 510 260s340-49 690 14" fill="none" stroke="#6ee7a8" stroke-opacity=".18" stroke-width="2">
+    <animate attributeName="d" dur="9s" repeatCount="indefinite" values="M0 266C180 220 332 314 510 260s340-49 690 14;M0 250C170 310 340 218 520 270s360 38 680-22;M0 266C180 220 332 314 510 260s340-49 690 14"/>
+  </path>
+  <g transform="translate(75 52)">
+    <rect width="216" height="216" rx="18" fill="#0a120e" stroke="#d9b85f" stroke-width="3"/>
+    <g fill="none" stroke="#6ee7a8" stroke-width="5" stroke-linecap="round">
+      <path d="M47 57h122M47 108h122M47 159h122M57 47v122M108 47v122M159 47v122" opacity=".62"/>
+      <rect x="43" y="43" width="130" height="130" rx="12" stroke="url(#accent)"/>
+    </g>
+    <circle cx="108" cy="108" r="20" fill="#d9b85f" filter="url(#glow)">
+      <animate attributeName="r" values="16;22;16" dur="2.8s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".7;1;.7" dur="2.8s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <text x="345" y="123" fill="#f5f7f3" font-size="60" font-weight="700">SlimeCustomizer</text>
+    <text x="349" y="171" fill="#a9cbb6" font-size="24">CONFIG-DRIVEN SLIMEFUN CONTENT</text>
+    <rect x="347" y="205" width="566" height="4" rx="2" fill="url(#accent)">
+      <animate attributeName="width" values="280;566;280" dur="4.5s" repeatCount="indefinite"/>
+    </rect>
+    <text x="349" y="248" fill="#d9b85f" font-size="22">DrakesCraft-Labs · Paper/Purpur 1.21.11</text>
+  </g>
+</svg>

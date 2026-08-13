@@ -1,0 +1,8 @@
+# 该配置文件定义了运行该套配置需要的服务器环境
+# version 为版本需求，至少达到指定版本才能运行
+# version.minecraft 填写MC大版本号，例如1.20则填写1.20
+
+version:
+  minecraft: 16
+depend:
+  - Slimefun
