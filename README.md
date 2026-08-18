@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/DrakesCraft-Labs/SlimeCustomizer/master/docs/banner.svg" width="100%" alt="SLIMECUSTOMIZER Animated Banner" />
+  <img src="https://raw.githubusercontent.com/DrakesCraft-Labs/SlimeCustomizer/master/banner.svg" width="100%" alt="SLIMECUSTOMIZER Animated Banner" />
 </p>
 
 # SlimeCustomizer
