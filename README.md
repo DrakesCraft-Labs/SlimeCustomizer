@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/slimecustomizer-banner.svg" alt="SlimeCustomizer for DrakesCraft" width="100%">
+  <img src="https://raw.githubusercontent.com/DrakesCraft-Labs/SlimeCustomizer/main/banner.svg" alt="SlimeCustomizer for DrakesCraft" width="100%">
 </p>
 
 # SlimeCustomizer for DrakesCraft
