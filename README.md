@@ -44,16 +44,12 @@ The distributable JAR is generated under `target/`.
 - Compatibility changes stay scoped to the Drake core and Minecraft 1.21.11.
 - Secrets, live server configuration and player data never belong in this repository.
 
-## Credits and license
+---
 
-This is an independent DrakesCraft-Labs maintenance repository based on the original SlimefunGuguProject work. Original authorship remains credited in source and metadata. Distributed under the license in [LICENSE.txt](LICENSE.txt).
+## 📄 License & Upstream Attribution
 
-## ⚖️ Upstream Attribution & License / Licencia y Créditos
+This project is a sovereign fork maintained by [**JackStar6677-1**](https://github.com/JackStar6677-1) under [**DrakesCraft Labs**](https://github.com/DrakesCraft-Labs).
 
-- **Original Project / Upstream**: Slimefun4 Community Addon.
-- **Port & Maintenance**: DrakesCraft Labs team (Compatibility for Paper / Purpur 1.21.11).
-- **License**: GPL-3.0 / MIT.
-- **Source Code**: [GitHub Repository](https://github.com/DrakesCraft-Labs/SlimeCustomizer)
-- **Support & Issues**: [GitHub Issues](https://github.com/DrakesCraft-Labs/SlimeCustomizer/issues) | [Discord](https://discord.gg/rv3vtXZTk7)
-
-*This project is an open-source derivative work maintained by DrakesCraft Labs under the terms of its original license. All original assets and concepts belong to their respective creators.*
+- **Original Project:** Created by the upstream authors and the open-source community.
+- **DrakesCraft Optimizations:** Modernized for Paper/Purpur 1.21.11+, Java 21, high concurrency, asynchronous safety, and exploit/duplication prevention.
+- **License:** Distributed under the original **GNU General Public License v3.0 (GPLv3)** (or original upstream license). See the [LICENSE](LICENSE) file for complete terms.
